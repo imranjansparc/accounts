@@ -53,7 +53,7 @@ public class AccountsController {
                     )
             )
     }
-    )
+    ) 
     @PostMapping("/create")
     public ResponseEntity<ResponseDto> createAccount(@Valid @RequestBody CustomerDto customerDto) {
         iAccountsService.createAccount(customerDto);
